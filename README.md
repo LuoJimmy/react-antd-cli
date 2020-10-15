@@ -6,7 +6,7 @@
 
 ## 安装
 ```
-npm install -g @antd/cli
+npm install -g react-antd-cli
 ```
 
 ## 使用
