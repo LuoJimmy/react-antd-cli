@@ -222,7 +222,7 @@ npm install -g @antd/cli
    
    ```
 
-   > 1、如果yyy里含有`detail`或者`edit`字符将会为path后加`id`, eg: `/xxx/yyy/:id`
+   > 1、如果yyy里含有`detail`或者`edit`字符将会为path后加`id`, eg: `/xxx/yyy/:id`  
      2、如果手动改了routes.ts文件，如删除了`routes`字段会造成更新错误，请手动调整  
      3、参数`-r, --redirect`, 该路由为重定向路由  
      4、参数`-f, --father`, 父级路由路径，默认为当前模块路由路径`/xxx`
