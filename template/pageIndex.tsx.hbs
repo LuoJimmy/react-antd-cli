@@ -1,0 +1,16 @@
+import React from 'react';
+import { RouteChildrenProps } from 'react-router';
+import './index.less';
+
+interface IProps extends RouteChildrenProps {
+	// extends type of props    
+}
+
+const {{componentName}} = (props: IProps) => {
+    return (
+      	<div className="{{className}}">
+        	This is page {{pageName}}, please delete this line in your project.
+      	</div>
+    );
+};
+export default {{componentName}};

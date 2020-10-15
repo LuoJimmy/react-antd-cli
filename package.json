@@ -1,0 +1,31 @@
+{
+  "name": "@antd/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "antd": "./bin/antd-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuoJimmy/antd-cli.git"
+  },
+  "homepage": "https://github.com/LuoJimmy/antd-cli.git",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "handlebars": "^4.7.6",
+    "open": "^7.3.0",
+    "ora": "^5.1.0",
+    "watch": "^1.0.2"
+  }
+}

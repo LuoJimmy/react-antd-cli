@@ -1,0 +1,13 @@
+import { IRoute } from '@/types/common';
+
+let routes: Array<IRoute> = [
+    {
+        path: '/{{modulePath}}',
+        component: () => import('./index'),
+        models: () => [import('./model')],
+        routes: [
+            
+        ]
+    },
+];
+export default routes;

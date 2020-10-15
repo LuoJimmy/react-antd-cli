@@ -1,0 +1,17 @@
+import React from 'react'
+import { shallow } from 'enzyme'     // 本例子只以shallow(浅渲染，只渲染父组件)为例
+import {{componentName}} from './index'     // 导入需测试的组件
+
+declare const test: any;
+declare const expect: any;
+
+test('{{componentName}}', ()=>{
+    const props = {
+        history: {} as any,
+        location: {} as any,
+        match: {} as any,
+        children: null
+    }
+    const item = shallow(<{{componentName}}  {...props}/>);
+    expect(item.hasClass('{{className}}')).toBe(true)
+})
