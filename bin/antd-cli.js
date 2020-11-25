@@ -31,9 +31,9 @@ generate
 generate
     .command('component <name>')
     .description('generate component <component-name>')
-    .action(() => {
-        console.log("generate component");
-    })
+    .action(require('../lib/generateComponent'))
+    .option('-p, --path <pathName>', 'the path where you want to generate file')
+    .option('-f, --folder', 'component name is folder')
 
 
 program.parse(process.argv)
