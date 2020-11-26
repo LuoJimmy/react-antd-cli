@@ -1,3 +1,23 @@
+# [1.1.0](https://github.com/LuoJimmy/antd-cli/compare/v1.0.3...v1.1.0) (2020-11-26)
+
+
+### Bug Fixes
+
+* 删除interface IProps的继承 ([f8815e7](https://github.com/LuoJimmy/antd-cli/commit/f8815e7213f82fcb23b9f788f8db7260d5084c8b))
+
+
+### Features
+
+* 新增生成component功能 ([bdcae22](https://github.com/LuoJimmy/antd-cli/commit/bdcae2296574fdda5956ed1277ee55249479ac28))
+* 添加工具函数 ([022537d](https://github.com/LuoJimmy/antd-cli/commit/022537d9ee75724ca4b6c2c3a902d691ee56b33e))
+
+
+### Performance Improvements
+
+* 优化fsExtend导出 ([8f6c536](https://github.com/LuoJimmy/antd-cli/commit/8f6c536105a2af89949cd219b7ad11eae959d6aa))
+
+
+
 ## [1.0.3](https://github.com/LuoJimmy/antd-cli/compare/v1.0.2...v1.0.3) (2020-10-26)
 
 
