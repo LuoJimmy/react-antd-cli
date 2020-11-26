@@ -226,3 +226,84 @@ npm install -g react-antd-cli
      2、如果手动改了routes.ts文件，如删除了`routes`字段会造成更新错误，请手动调整  
      3、参数`-r, --redirect`, 该路由为重定向路由  
      4、参数`-f, --father`, 父级路由路径，默认为当前模块路由路径`/xxx`
+  
+     
+3. antd g component zzzComponent
+
+   3.1 在公共组件下`src/components`生成ZzzComponent文件夹
+
+   ​里面包含的文件：
+   ```
+   └── ZzzComponent
+      ├── index.less // 样式文件
+      └── index.tsx // 组件
+   ```
+
+   - index.tsx
+
+    ```tsx
+    import React from 'react';
+    import './index.less';
+
+    interface IProps {
+        
+    }
+
+    const ZzzComponent = (props: IProps) => {
+        return (
+            <div className="zzz-component">
+                This is component ZzzComponent, please delete this line in your project.
+            </div>
+        );
+    };
+    export default ZzzComponent;
+    ```
+
+   - index.less
+
+    ```less
+     .zzz-component {
+     
+     }
+    ```
+
+    3.1 业务组件中默认生成扁平的结构
+    ​里面包含的文件：
+   ```
+   └── components
+      ├── ZzzComponent.less // 样式文件
+      └── ZzzComponent.tsx // 组件
+      ...
+   ```
+
+   - ZzzComponent.tsx
+
+    ```tsx
+    import React from 'react';
+    import './ZzzComponent.less';
+
+    interface IProps {
+        
+    }
+
+    const ZzzComponent = (props: IProps) => {
+        return (
+            <div className="zzz-component">
+                This is component ZzzComponent, please delete this line in your project.
+            </div>
+        );
+    };
+    export default ZzzComponent;
+    ```
+
+   - ZzzComponent.less
+
+    ```less
+     .zzz-component {
+     
+     }
+    ```
+    
+
+
+   > 1、可以通过参数`-f, --folder`, 来控制以文件夹格式组织
