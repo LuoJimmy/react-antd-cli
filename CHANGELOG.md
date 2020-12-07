@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/LuoJimmy/antd-cli/compare/v1.1.0...v1.1.1) (2020-12-07)
+
+
+### Bug Fixes
+
+* getRelativePath引入，className转化的问题 ([cf8faa9](https://github.com/LuoJimmy/antd-cli/commit/cf8faa98f612956c64ed057964d796ece592e89d))
+
+
+
 # [1.1.0](https://github.com/LuoJimmy/antd-cli/compare/v1.0.3...v1.1.0) (2020-11-26)
 
 
