@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/LuoJimmy/antd-cli/compare/v1.1.1...v1.1.2) (2021-03-15)
+
+
+### Features
+
+* **page:** 新增service文件 ([48e2e61](https://github.com/LuoJimmy/antd-cli/commit/48e2e61426b91d1715fe1bde0b7e9249a322677a))
+
+
+
 ## [1.1.1](https://github.com/LuoJimmy/antd-cli/compare/v1.1.0...v1.1.1) (2020-12-07)
 
 
