@@ -1,6 +1,6 @@
 
 
-# antd-cli
+# react-antd-cli
 
 适用脚手架：https://github.com/JinJieTan/fed-zulin-template
 
@@ -221,6 +221,13 @@ npm install -g react-antd-cli
    export default routes;
    
    ```
+   - service.ts // 接口服务文件
+
+    ```typescript
+     import ajax from '@/api/utils/ajax';
+     
+     // export service functions
+    ```
 
    > 1、如果yyy里含有`detail`或者`edit`字符将会为path后加`id`, eg: `/xxx/yyy/:id`  
      2、如果手动改了routes.ts文件，如删除了`routes`字段会造成更新错误，请手动调整  
