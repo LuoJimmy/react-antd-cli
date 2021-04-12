@@ -139,6 +139,7 @@ npm install -g react-antd-cli
       ├── index.less // 样式文件
       ├── index.test.tsx // 测试文件
       ├── index.tsx // 页面组件
+      ├── service.ts // 接口服务文件
       └── type.ts // 类型文件
    ```
 
