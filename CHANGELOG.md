@@ -1,3 +1,12 @@
+## [1.1.3](https://github.com/LuoJimmy/antd-cli/compare/v1.1.2...v1.1.3) (2021-04-12)
+
+
+### Features
+
+* 路由路径驼峰写法 ([3f06211](https://github.com/LuoJimmy/antd-cli/commit/3f062117d83fc4901f3f6b6300c4e7c6b859bc36))
+
+
+
 ## [1.1.2](https://github.com/LuoJimmy/antd-cli/compare/v1.1.1...v1.1.2) (2021-03-15)
 
 
