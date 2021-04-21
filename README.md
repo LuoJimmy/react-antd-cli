@@ -103,7 +103,7 @@ npm install -g react-antd-cli
    - service.ts // 接口服务文件
 
     ```typescript
-     import ajax from '@/api/utils/ajax';
+     import ajax from '@p/api/utils/ajax';
      
      // export service functions
     ```
@@ -225,7 +225,7 @@ npm install -g react-antd-cli
    - service.ts // 接口服务文件
 
     ```typescript
-     import ajax from '@/api/utils/ajax';
+     import ajax from '@p/api/utils/ajax';
      
      // export service functions
     ```
