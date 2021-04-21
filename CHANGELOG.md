@@ -1,3 +1,12 @@
+## [1.1.4](https://github.com/LuoJimmy/antd-cli/compare/v1.1.3...v1.1.4) (2021-04-21)
+
+
+### Features
+
+* api结构调整 ([d4e6c1d](https://github.com/LuoJimmy/antd-cli/commit/d4e6c1d924516355c995f4a1a9c3cf9aa880d092))
+
+
+
 ## [1.1.3](https://github.com/LuoJimmy/antd-cli/compare/v1.1.2...v1.1.3) (2021-04-12)
 
 
